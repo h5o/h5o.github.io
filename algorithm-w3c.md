@@ -95,15 +95,15 @@ The algorithm that must be followed during a walk of a DOM subtree rooted at a s
 
 		Otherwise, run these substeps:
 
-			1. Let candidate section be current section.
+		1. Let candidate section be current section.
 
-			2. Heading loop: If the element being entered has a rank lower than the rank of the heading of the candidate section, then create a new section, and append it to candidate section. (This does not change which section is the last section in the outline.) Let current section be this new section. Let the element being entered be the new heading for the current section. Abort these substeps.
+		2. Heading loop: If the element being entered has a rank lower than the rank of the heading of the candidate section, then create a new section, and append it to candidate section. (This does not change which section is the last section in the outline.) Let current section be this new section. Let the element being entered be the new heading for the current section. Abort these substeps.
 
-			3. Let new candidate section be the section that contains candidate section in the outline of current outline target.
+		3. Let new candidate section be the section that contains candidate section in the outline of current outline target.
 
-			4. Let candidate section be new candidate section.
+		4. Let candidate section be new candidate section.
 
-			5. Return to the step labeled heading loop.
+		5. Return to the step labeled heading loop.
 
 		Push the element being entered onto the stack. (This causes the algorithm to skip any descendants of the element.)
 
