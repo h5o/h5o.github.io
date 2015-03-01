@@ -1,4 +1,7 @@
+# W3C version of the outlining algorithm #
+
 Origin: [W3C Recommendation 28 October 2014](http://www.w3.org/TR/html5/sections.html#outline)
+
 Copyright © 2014 World Wide Web Consortium, (MIT, ERCIM, Keio, Beihang). http://www.w3.org/Consortium/Legal/2015/doc-license
 
 The algorithm that must be followed during a walk of a DOM subtree rooted at a sectioning content element or a sectioning root element to determine that element's outline is as follows:
