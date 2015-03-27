@@ -1,0 +1,11 @@
+# Site settings
+title: h5o - HTML5 Outliner
+description: > # this means to ignore newlines until "baseurl:"
+  h5o is an implementation of the HTML5 outline algorithm in JavaScript
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://h5o.github.io" # the base hostname & protocol for your site
+twitter_username: dymonaz
+github_username:  h5o
+
+# Build settings
+markdown: kramdown

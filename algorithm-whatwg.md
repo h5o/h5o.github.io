@@ -1,8 +1,11 @@
-# WHATWG version of the outlining algorithm #
+---
+title: Algorithm from WHAT-WG
+layout: default
+---
+# WHATWG version of the outlining algorithm
 
-Origin: [WHATWG Living Standard](https://html.spec.whatwg.org/multipage/semantics.html#outlines)
- 
-Parts of this specification are © Copyright 2004-2014 Apple Inc., Mozilla Foundation, and Opera Software ASA. You are granted a license to use, reproduce and create derivative works of this document.
+* Origin: [WHATWG Living Standard](https://html.spec.whatwg.org/multipage/semantics.html#outlines)
+* Parts of this specification are © Copyright 2004-2014 Apple Inc., Mozilla Foundation, and Opera Software ASA. You are granted a license to use, reproduce and create derivative works of this document.
 
 The algorithm that must be followed during a walk of a DOM subtree rooted at a sectioning content element or a sectioning root element to determine that element's outline is as follows:
 
