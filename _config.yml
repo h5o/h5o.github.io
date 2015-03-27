@@ -9,3 +9,6 @@ github_username:  h5o
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
