@@ -12,6 +12,11 @@ h5o is an implementation of the HTML5 outline algorithm.
       (note that while the signing key for the `crx` is encrypted, the password is "known" to Travis)
     - [Source code](https://github.com/h5o/h5o-chrome)
 * Bookmarklet: [https://h5o.github.io/bookmarklet.html](https://h5o.github.io/bookmarklet.html)
+  
+  <iframe style="border:1px solid #e8e8e8;border-radius: 3px;background-color: #eef;" width="100%" height="80" src="/bookmarklet.html" frameborder="0"></iframe>
+  
+  - [Installation details](http://marklets.com/FAQ.aspx#howDoIAddABookmarkletToMyBrowser) for common browsers
+  - [Internet Explorer not supported](https://github.com/h5o/h5o-js/wiki/Bookmarklet-problems-with-Internet-Explorer) for common browsers
 
 ## Javascript library
 
